@@ -12,7 +12,10 @@ export default function Home() {
       <li><Link href="/about"> About</Link></li>
       <li><Link href="/contact"> Contact us</Link></li>
       <li><Link href="/about/branches"> Branches</Link></li>
+       <li><Link href="/products/vegis"> Vegis</Link></li>
     </ul>
+
+    <Link href="https://nextjs.org/"target="_blank">NextJS Site</Link>
     
     </>
     
