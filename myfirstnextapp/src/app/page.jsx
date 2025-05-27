@@ -1,3 +1,5 @@
+'use client';
+
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./page.module.css";
@@ -16,6 +18,8 @@ export default function Home() {
     </ul>
 
     <Link href="https://nextjs.org/"target="_blank" id={styles.specialLink}>NextJS Site</Link>
+
+    <button onClick={() => alert("Hello!")}>Click Me!</button>
     
     </>
     
