@@ -5,6 +5,11 @@ import Link from "next/link";
 import styles from "./page.module.css";
 
 export default function Home() {
+
+  const handleClick = () => {
+    alert("Hello from the Home page!");
+  }
+
   return (
     <><h1>Home Page</h1>
     <ul>
@@ -19,7 +24,8 @@ export default function Home() {
 
     <Link href="https://nextjs.org/"target="_blank" id={styles.specialLink}>NextJS Site</Link>
 
-    <button onClick={() => alert("Hello!")}>Click Me!</button>
+    {/* <button onClick={() => alert("Hello!")}>Click Me!</button> */}
+    <button onClick={handleClick}>Click Me!</button>
     
     </>
     
